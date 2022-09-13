@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		while (alpha <= 'Z')
 		{
-			_putchar(tolower(alpha))
+			_putchar(tolower(alpha));
 			alpha++;
 		}
 		count++;
