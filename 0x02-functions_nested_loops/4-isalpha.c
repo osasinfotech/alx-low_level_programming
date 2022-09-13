@@ -4,12 +4,11 @@
  * _isalpha - function that checks for alphabetic character
  * @c: string
  *
- * Returns 1 if c is a letter, lowercase or uppercase
- * Returns 0 otherwise
+ * Return: 0 if c is a letter, lowercase or uppercase
  */
 int _isalpha(int c)
 {
-	if (c >= 65 || c <= 90)
+	if (islower(c) || isupper(c))
 		return (1);
 	else
 		return (0);
