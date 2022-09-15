@@ -11,8 +11,8 @@ void jack_bauer(void)
 	{
 		while (sec < 60)
 		{
-			_putchar(('min / 10) + '0');
-			_putchar (('min % 10) + '0');
+			_putchar((min / 10) + '0');
+			_putchar ((min % 10) + '0');
 			_putchar(':');
 			_putchar ((sec / 10) + '0');
 			_putchar ((sec % 10) + '0');
