@@ -14,10 +14,10 @@ void more_numbers(void)
 		{
 			if (mn > 9)
 			{
-				_putchar((mn / 10) + '0');
-				_putchar((mn % 10) + '0');
+				_putchar(mn / 10 + '0');
+				_putchar(mn % 10 + '0');
 			}
-			mn = mn + 1;
+			mn++;
 		}
 		_putchar('\n');
 		loop++;
